@@ -1,6 +1,8 @@
 # djangopy
 belajar django
 
+MVT (model view template) paradigm
+
 
 # create init boilerplate
 > django-admin startproject web_project .
