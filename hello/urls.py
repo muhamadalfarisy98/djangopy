@@ -5,4 +5,6 @@ from hello import views
 # different URLs to their appropriate views
 urlpatterns = [
     path("", views.home, name="home"),
+    path("hello/<name>", views.hello_there, name="hello_there"),
+
 ]
